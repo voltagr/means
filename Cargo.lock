@@ -14,7 +14,7 @@ name = "account-data-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -770,7 +770,7 @@ name = "close-account-native-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -1093,7 +1093,7 @@ name = "favorites-native"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 2.2.1",
 ]
 
@@ -1635,7 +1635,7 @@ name = "pda-rent-payer-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -1715,7 +1715,7 @@ name = "processing-instructions-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -1724,7 +1724,7 @@ name = "program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -1733,7 +1733,7 @@ name = "program-derived-addresses-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -1871,7 +1871,7 @@ name = "realloc-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -1925,7 +1925,7 @@ name = "repository-layout-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
@@ -3578,7 +3578,7 @@ name = "token-2022-default-account-state-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
  "spl-associated-token-account",
  "spl-token-2022 0.7.0",
@@ -3589,7 +3589,7 @@ name = "token-2022-mint-close-authority-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
  "spl-associated-token-account",
  "spl-token-2022 0.7.0",
@@ -3600,7 +3600,7 @@ name = "token-2022-multiple-extensions-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
  "spl-associated-token-account",
  "spl-token-2022 0.7.0",
@@ -3611,7 +3611,7 @@ name = "token-2022-non-transferable-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
  "spl-associated-token-account",
  "spl-token-2022 0.7.0",
@@ -3622,7 +3622,7 @@ name = "token-2022-transfer-fees-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.10.4",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
  "spl-associated-token-account",
  "spl-token-2022 0.7.0",
@@ -3694,7 +3694,7 @@ name = "transfer-sol-program"
 version = "0.1.0"
 dependencies = [
  "borsh 0.9.3",
- "borsh-derive 0.9.3",
+ "borsh-derive 1.5.6",
  "solana-program 1.18.17",
 ]
 
