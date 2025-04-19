@@ -1,0 +1,16 @@
+[package]
+name = "cross-program-invocatio-native-lever"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+borsh = "0.10"
+borsh-derive = "0.10"
+solana-program = "=1.18.17"
+
+[lib]
+crate-type = ["cdylib", "lib"]

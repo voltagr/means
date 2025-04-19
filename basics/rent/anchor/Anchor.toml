@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+rent_example = "ED6f4gweAE7hWPQPXMt4kWxzDJne8VQEm9zkb1tMpFNB"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "pnpm ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

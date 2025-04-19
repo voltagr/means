@@ -1,0 +1,17 @@
+[package]
+name = "cross-program-invocatio-native-hand"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+borsh = "0.10"
+borsh-derive = "0.10"
+solana-program = "=1.18.17"
+cross-program-invocatio-native-lever = { path = "../lever", features = ["cpi"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
